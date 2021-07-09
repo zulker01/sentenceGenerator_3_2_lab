@@ -3,6 +3,6 @@ package com.company;
 public interface WordBehaviour {
 
   
-  public void addWordsToVocabs( );
+  public String modifyInputWords( String word);
 
 }

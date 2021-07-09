@@ -8,7 +8,8 @@ public class OSG extends Sentence_Generator11 {
     super.sentenceBehaviour = new Random();
 
   }
-  public void generateSentence() {
+  public String generateSentence() {
+    return sentence;
   }
 
 }

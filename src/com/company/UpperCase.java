@@ -5,7 +5,9 @@ public class UpperCase implements WordBehaviour {
 
   public String word;
 
-  public void addWordsToVocabs( ) {
+  public String modifyInputWords( String word) {
+
+    return word;
   }
 
 }

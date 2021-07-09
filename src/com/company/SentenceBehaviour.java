@@ -1,8 +1,10 @@
 package com.company;
 
+import java.util.ArrayList;
+
 public interface SentenceBehaviour {
 
   
-  public void createSentence();
+  public ArrayList<String> createSentence(ArrayList<String> vocabulary);
 
 }

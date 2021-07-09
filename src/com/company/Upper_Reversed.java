@@ -4,7 +4,11 @@ public class Upper_Reversed implements WordBehaviour {
 
   public String word;
 
-  public void addWordsToVocabs( ) {
+  public String modifyInputWords( String word) {
+
+    word  = word.toUpperCase();
+    
+    return word;
   }
 
 }
