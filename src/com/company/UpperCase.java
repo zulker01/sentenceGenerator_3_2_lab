@@ -7,6 +7,7 @@ public class UpperCase implements WordBehaviour {
 
   public String modifyInputWords( String word) {
 
+    word  = word.toUpperCase();
     return word;
   }
 
